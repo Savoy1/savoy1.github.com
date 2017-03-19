@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html><!--根标签-->
+	
+	<head>  <!--头部标签/头部元素容器-->
+		<title></title>  <!--头部元素/网页标题-->
+		<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+		<link>
+		<style type="text/css">
+			span
+			{
+				color:bule;
+			}
+			table tr,td,th
+			{
+				border: 1px solid #000;
+			}
+		</style>
+		<script></script>
+	</head>
+	
+	<body> <!--内容-->
+		<h1> 一级标题</h1><!--一级标题，等级最高-->
+		<h6>六级标题<h6/><!--六级标题-->
+		<p><em>em需要强调的文本</em>这是一个段落 这是一个段落这是一个段落这是一个段落 </p> <!--段落-->
+		
+		<p>这是一个段落这是一个段落这是一个段落这是一个段落这是一个段落<strong>需要强调的文本</strong></p>
+		<h1>另一个一级标题</h1>
+		<h2>二级标题</h2>
+		<p> 这是一个段落<span>span蓝色</span>这是一个段落这是一个段落这是一个段落这是一个段落</p>
+
+		<p>这是一个段落<q>这是一个引用</q>这是一个段落这是一个段落这是一个段落这是一个段落</p>
+
+		<blockquote>这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用</blockquote>
+		<p>这是一个&nbsp空标签回车<br>这是一个空标签回车<br>这是一个空标签回车<br></p>
+		<hr><!--水平横线-->
+		<address>这是一个地址</address>
+		<code>这是一行代码</code>
+		<pre>这是多行代码<br>
+		for(int i=0;i<10;i++)<br>
+		{<br>
+			sum+=i;<br>
+		}<br>
+		</pre>
+		<div><h2>这是一个无序信息列表</h2>
+		<ul>
+			<li>这是信息列表的第一行</li>
+			<li>这是信息列表的第二行</li>
+			<li>这是信息列表的第三行</li>
+		</ul></div>
+		<div id="imformation list"><h2>这是一个有序信息列表</h2>
+		<ol>
+			<li>这是有序信息列表的第一行</li>
+			<li>这是有序信息列表的第二行</li>
+			<li>这是有序信息列表的第三行</li>
+		</ol></div>
+		<table summary="表格摘要">
+			<caption>表格标题</caption>
+			<tbody>
+				<tr>
+					<th>表格序号</th>
+					<th>表格行数</th>
+					<th>表格列数</th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td>3</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>2</td>
+					<td>7</td>
+				</tr>
+			</tbody>
+		</table>
+
+		
+		<a href="http:/www.baidu.com" title="点击进入百度">百度</a>
+		<a href="http:/www.baidu.com" title="点击进入百度" target="_blank">百度</a>
+		<a href="mailto:yy@immooc.com?cc=xiaoming@imooc.com&bcc=xiaoyu@imooc.com&subject=主题&body=邮件内容">发送</a>
+		<br>
+		<img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1489721880848&di=07df413f5ff6e26f379d0b9efe3c9648&imgtype=0&src=http%3A%2F%2Fimg16.3lian.com%2Fgif2016%2Fq35%2F23%2F41.jpg" alt="加载失败" title="冰上的尤里">
+		<form   method="传送方式"   action="服务器文件">
+
+		<form method="post" action="save.php">
+			<label for="userrname">用户名：</label>
+			<input type="text" name="userrname" id="userrname" value="" />
+			<label for="pass">密码：</label>
+			<input type="password" name="pass"/>
+		</form>
+
+		<form method="post" action="save.php">
+			<label>联系我们</label>
+			<textarea cols="10" rows="10">这里可以输入……</textarea>
+		</form>
+
+		<form method="post" action="save.php">
+			<label>性别：</label>
+			<label>男</label>
+			<input type="radio" name="gender" value="1" />
+			<label>女</label>
+			<input type="radio" name="gender" value="2" />
+		</form>
+
+		<form method="post" action="save.php">
+			<label>爱好:</label>
+			<label>运动</label>
+			<input type="checkbox" name="hobby" />
+			<label>艺术</label>
+			<input type="checkbox" name="hobby" />
+			<label>科学</label>
+			<input type="checkbox" name="hobby" />
+		</form>
+
+		<form action="save.php" method="post">
+			<label>城市</label>
+			<select >
+				<option value="北京">北京</option>
+				<option value="上海">上海</option>
+				<option value="杭州">杭州</option>
+			</select>	
+			<input type="submit" name="确定">
+			<input type="reset" name="重置">		
+		</form>
+       
+		<div><h3>网站导航</h3>
+			<ul>
+				<li><a href="http:/www.baidu.com" title="导航一">导航一</a></li>
+				<li><a href="http:/www.baidu.com" title="导航二">导航二</a></li>
+				<li><a href="http:/www.baidu.com" title="导航三">导航三</a></li>
+			</ul>
+		</div>
+
+	</body>
+
+</html>
