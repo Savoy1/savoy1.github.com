@@ -1,0 +1,222 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link href="task5.css" rel="stylesheet" type="text/css">
+<title>任务五：零基础HTML及CSS编码（二）</title>
+</head>
+
+<body>
+<!--头部-->
+<header> <a href="http://www.baidu.com" class="logo"><img src="../imgs/logo.png" alt="百度"></a>
+  <nav role="navigation">
+    <ul class="navbar">
+      <li><a href="#" title="导航一">导航一</a></li>
+      <li><a href="#" title="导航二">导航二</a></li>
+      <li><a href="#" title="导航三">导航三</a></li>
+      <li><a href="#" title="导航四">导航四</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<!--侧栏-->
+<aside>
+  <h4>这里以后是一个侧栏，这是侧栏的标题</h4>
+  <form  action="">
+    <table>
+      <tr>
+        <td><label >请输入邮箱地址</label></td>
+        <td><input type="email" id="email" value="这是一个文本输入框" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span class="tips">邮箱地址请按要求格式输入</span></td>
+      </tr>
+      <tr>
+        <td><label >请输入密码</label></td>
+        <td><input type="password" name="pass" value="这是一个文本输入框"  minlength="6" maxlength="16"/></td>
+      </tr>
+      <tr>
+        <td><label >请重复输入密码</label></td>
+        <td><input type="password" name="pass" value="这是一个文本输入框"  minlength="6" maxlength="16" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td><span class="tips">密码请为6-12位英文数字</span></td>
+      </tr>
+      <tr>
+        <td><label>性别</label></td>
+        <td><input type="radio" name="gender" value="1" />
+          <label>男</label>
+          <input type="radio" name="gender" value="2" />
+          <label>女</label></td>
+      </tr>
+      <tr>
+        <td><label>爱好</label></td>
+        <td><label for="sport">
+            <input type="checkbox" name="hobby"  id="sport" value="sport"/>
+            运动</label>
+          <label for="art">
+            <input type="checkbox" name="hobby" id="art" value="art" />
+            艺术</label>
+          <label for="science">
+            <input type="checkbox" name="hobby" id="science" value="science" />
+            科学</label></td>
+      </tr>
+      <tr>
+        <td><label>城市</label></td>
+        <td><select >
+            <option value="bj">北京</option>
+            <option value="sh">上海</option>
+            <option value="hz">杭州</option>
+            <option value="wh">武汉</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td><label>个人描述</label></td>
+        <td><textarea name="desc" id="decs " cols="20" placeholder="这里可以输入您的个人描述"></textarea></td>
+      </tr>
+      <tr>
+        <td colspan="2"><button type="submit" >确定提交</button></td>
+      </tr>
+
+    </table>
+  </form>
+</aside>
+
+<!--第一篇文章-->
+<section class="acticle1">
+  <article>
+    <h1> 文章一级标题</h1>
+    <h2>文章二级标题</h2>
+    <h4 >文章作者&nbsp 文章发表时间 </h4>
+    <p ><em>em需要强调的文本</em> 这是一个段落, 这是一个段落, 这是一个段落, 这是一个段落, 这是一个段落, 这是一个段落,这是一个段落， 这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落，这是一个段落 ,这是一个段落,这是一个段落,这是一个段落,这是一个段落</p>
+    换行了<br>
+    <p>这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落<strong>需要强调的文本</strong></p>
+    <p> 这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,<a href="http:/www.baidu.com" title="链接">这里有个链接</a>这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落,这是一个段落</p>
+    <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里">
+    <ul>
+      <li>列表项目一</li>
+      <li>列表项目二</li>
+      <li>列表项目三</li>
+    </ul>
+    <p>这是一个段落<q>这是一个引用</q>这是一个段落这是一个段落这是一个段落这是一个段落</p>
+    <blockquote>这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用这是一个很长的引用</blockquote>
+    <p>这是一个空格&nbsp空标签回车<br>
+      这是一个空标签回车<br>
+      这是一个空标签回车<br>
+    </p>
+    <hr>
+    <!--水平横线-->
+    <address>
+    这是一个地址
+    </address>
+    <code>这是一行代码</code>
+    <pre>这是多行代码<br>
+			for(int i=0;i < 10;i++)<br>
+			{<br>
+			sum+=i;<br>
+			}<br>
+	</pre>
+  </article>
+</section>
+
+
+
+<section class="pic">
+  <h2>图片</h2>
+  <ul>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+      <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+    <li>
+      <p>好看的图片</p>
+      <img src="../imgs/yuri.jpg" alt="加载失败" title="冰上的尤里"> </li>
+  </ul>
+</section>
+
+<!--第二篇文章-->
+<section class="article2">
+  <article>
+    <h1>最后一篇文章一级标题</h1>
+    <h2>文章二级标题</h2>
+    <h4>文章作者 &nbsp 文章发表时间章</h4>
+    <ol>
+      <li>排名1</li>
+      <li>排名2</li>
+      <li>排名3</li>
+    </ol
+  >
+    <p>下面是一个表格，给表格加了一个border="1"好让你看出是表格,你们不用写html的时候不用加</p>
+    <table >
+      <tbody>
+      <thead>
+        <tr>
+          <th >表头</th>
+          <th >表头</th>
+          <th>表头</th>
+        </tr>
+      </thead>
+      <tr>
+        <td>表格内容单元格</td>
+        <td>表格内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+      <tr>
+        <td>表格内容单元格</td>
+        <td>表格内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+      <tr>
+        <td>表格内容单元格</td>
+        <td>表格内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+      <tr>
+        <td>表格内容单元格</td>
+        <td>表格内容单元格</td>
+        <td><a href="#">操作</a></td>
+      </tr>
+      <tfoot>
+        <tr >
+          <td >总计</td>
+          <td colspan="2">1000</td>
+        </tr>
+      </tfoot>
+        </tbody>
+      
+    </table>
+    <a href="http:/www.baidu.com" title="点击进入百度">百度</a> <a href="http:/www.baidu.com" title="点击进入百度" target="_blank">百度</a> <a href="mailto:yy@immooc.com?cc=xiaoming@imooc.com&bcc=xiaoyu@imooc.com&subject=主题&body=邮件内容">发送</a> <br>
+  </article>
+</section>
+
+
+<!--脚部-->
+<footer>版权所有&copy; </footer>
+</body>
+</html>

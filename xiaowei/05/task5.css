@@ -1,0 +1,240 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body
+{
+	background-color: #DEDEDE;
+	font-size: 16px;
+	overflow: auto;
+	zoom: 1;
+}
+
+/*导航栏*/
+header
+{
+	background-color: #444;
+	height: 60px;
+	min-width: 1282px;
+	line-height: 60px;
+	padding-left: 40px;
+	padding-right: 14px;
+	width: 100%;
+}
+
+header .logo
+{
+	float: left;
+	margin: 11px 0;
+}
+
+header .logo img
+{
+	display: block;
+	width: 118px;
+	height: 38px;
+	border: none;
+}
+
+header .navbar
+{
+	float: right;
+}
+
+header .navbar li
+{
+	float: left;
+	margin: 0 10px;
+}
+
+header .navbar a
+{
+	display: block;
+	line-height: 60px;
+	color: #FFF;
+	font-weight: bold;
+}
+
+header .navbar a:visited
+{
+	color: #DEDEDE;
+}
+
+/*文章、侧栏、图片*/
+section, aside
+{
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #cbcbcb;
+	line-height: 1.8;
+	background: #FFF;
+	box-shadow: 2px 2px 1px 1px #848484;
+}
+
+section
+{
+	margin-right:390px;	
+}
+
+section > article > h1
+{
+	font-size: 30px;
+}
+
+section > article >h2
+{
+	font-size: 15px;
+	color: #848484;
+	font-weight: bold;
+}
+
+section > article > h4
+{
+	font-size: 9px;
+	color: #848484;
+}
+
+section > article > p
+{
+	text-indent: 2em;
+}
+
+section ul
+{
+	list-style: none;
+}
+
+.pic ul
+{
+	margin-top: 22px;
+	margin-bottom: 14px;
+	margin-left: 40px;
+	
+}
+.pic img
+{
+	height: 120px;
+	width: 120px;
+}
+.pic ul li
+{
+	display:inline-block;
+	margin:10px;
+	padding: 10px;
+	border: 1px solid #cecece;
+	text-align: center;
+}
+
+.article2 ol
+{
+	margin-left: 40px;
+}
+
+.article2 table
+{
+	width:100%;
+	border:solid #DEDEDE;
+	border-width:1px 0px 0px 1px;
+}
+
+.article2 table thead
+{
+	text-align:left;
+	color:#FFF;
+	background-color:#444;
+}
+
+.article2 table td
+{
+	border:solid #DEDEDE;
+	border-width:0px 1px 1px 0px;
+}
+.article2 table tfoot
+{
+	background-color:#DEDEDE; 
+	font-weight:bold;
+}
+.article2 table thead th,
+.article2 tablr td
+{
+	padding-left:6px
+}
+
+aside
+{
+	float:right;
+	width:350px;
+	
+}
+aside h4
+{
+	height:38px;
+	line-height:39px;
+	margin-bottom:10px;
+	padding-left:10px;
+	border-left:3px solid #DEDEDE;
+}
+
+aside  form table
+{
+	
+	margin:0 auto;
+}
+aside form table td
+{
+	padding:8px;
+	font-size:10px;	
+}
+aside form table tr td:first-of-type
+{
+	width:35%;
+	text-align:right;
+	vertical-align:top;
+}
+
+aside form input
+{
+	height:20px;
+	line-height:20px;
+	vertical-align:middle;
+}
+aside form textarea
+{
+	width:180px;
+	height:98px;
+}
+aside form .tips
+{
+	font-size:10px;
+	color:#848484;
+}
+aside form button
+{
+	width:100%;
+	height:38px;
+	line-height:38px;
+	border:1px solid #3355d0;
+	border-radius:8px;
+	color:#fff;
+	text-align:center;
+	background-color:#3355d0;
+}
+	
+
+
+footer
+{
+	background-color: #444;
+	text-align: center;
+	height: 80px;
+	line-height: 80px;
+	width: 100%;
+	color: #FFF;
+}
+
