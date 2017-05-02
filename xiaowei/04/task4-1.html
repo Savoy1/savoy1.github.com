@@ -16,11 +16,12 @@ html, body
 	width: 100%;
 	height: 100%;
 }
+
 body
 {
-	display:flex;
-	align-items:center;
-	justify-content:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .rect
@@ -28,41 +29,42 @@ body
 	height: 200px;
 	width: 400px;
 	background-color: #ccc;
-
-	/*position: relative;*/
-	
 	overflow: hidden;
 }
+
 .circle-t
 {
-	width:100px;
-	height:100px;
-	background-color:#fc0;
-	-moz-boder-radius:50px;
-	-webkit-border-radius:50px;
-	boder-radius:50px;
-	position:relative;
-	top:-50px;
-	right:50px;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	-moz-boder-radius: 50px;
+	-webkit-border-radius: 50px;
+	boder-radius: 50px;
+	position: relative;
+	top: -50px;
+	right: 50px;
 }
 
 .circle-b
 {
-	width:100px;
-	height:100px;
-	background-color:#fc0;
-	-moz-boder-radius:50px;
-	-webkit-border-radius:50px;
-	boder-radius:50px;
-	position:relative;
-	float:right;
-	top:50px;
-	right:-50px;
+	width: 100px;
+	height: 100px;
+	background-color: #fc0;
+	-moz-boder-radius: 50px;
+	-webkit-border-radius: 50px;
+	boder-radius: 50px;
+	position: relative;
+	float: right;
+	top: 50px;
+	right: -50px;
 }
 </style>
 </head>
 
 <body>
-<div class="rect"><div class="circle-t"></div> <div class="circle-b"></div> </div>
+<div class="rect">
+  <div class="circle-t"></div>
+  <div class="circle-b"></div>
+</div>
 </body>
 </html>
